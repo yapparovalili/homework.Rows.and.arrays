@@ -15,7 +15,6 @@ public class StatsService {
         return sum(sales) / 12;
     }
 
-
     public int minimum(long[] sales) {
         int minMonth = 0;
         long minSale = sales[0];
@@ -26,11 +25,9 @@ public class StatsService {
 
             }
         }
-
         return minMonth + 9;
 
     }
-
 
     public int maximum(long[] sales) {
         int maxMonth = 0;
@@ -59,7 +56,6 @@ public class StatsService {
 
         return counter;
     }
-
 
     public int highAverage(long[] sales) {
 
